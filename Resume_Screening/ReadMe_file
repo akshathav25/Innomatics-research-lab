@@ -1,1 +1,26 @@
 
+AI Resume Screening System
+📌 Overview
+
+This project is an AI-powered Resume Screening System built using LangChain and Gemini.
+
+It evaluates a candidate's resume based on a given job description and provides:
+
+Skill extraction
+Matching analysis
+Score (0–100)
+Explanation
+
+--> Tech Stack
+Python
+LangChain
+Gemini API
+LangSmith
+
+How to Run
+Install dependencies:
+pip install langchain langchain-core langchain-google-genai python-dotenv
+Add API key in .env:
+GOOGLE_API_KEY=your_api_key
+Run the project:
+python main.py
